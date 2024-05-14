@@ -9,12 +9,9 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="list-disc pl-2">
-        <li>Node.js</li>
-        <li>Express</li>
-        <li>PostgreSQL</li>
-        <li>Sequelize</li>
-        <li>JavaScript</li>
-        <li>React</li>
+        <li>Full Stack Web Development:HTML,CSS,JavaScript,ReactJS,Node.js,Express.js,NextJS,MongoDB,AWS Cloud</li>
+        <li>Programming Languages:C++,Python</li>
+        <li>Database: MySQL</li>
       </ul>
     ),
   },
@@ -23,8 +20,8 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>Fullstack Academy of Code</li>
-        <li>University of California, Santa Cruz</li>
+        <li>St. Michael's Sr. Sec. School</li>
+        <li>Guru Tegh Bahadur Institute of Technology</li>
       </ul>
     ),
   },
@@ -33,8 +30,18 @@ const TAB_DATA = [
     id: "certifications",
     content: (
       <ul className="list-disc pl-2">
-        <li>AWS Cloud Practitioner</li>
-        <li>Google Professional Cloud Developer</li>
+        <li>Core Team Member and Organizer of GTBIT Tech Fest 'SANCHAAR'</li>
+        <li>IoT Summer Training at GTBIT</li>
+        <li>Completed a Course on "Rocket Propulsion and Spacecraft Dynamics" at ISRO</li>
+      </ul>
+    ),
+  },
+  {
+    title: "Experience",
+    id: "experience",
+    content: (
+      <ul className="list-disc pl-2">
+        <li>Web Developement intern at Dimitra AgTech</li>
       </ul>
     ),
   },
@@ -59,8 +66,8 @@ const AboutSection = () => {
           <p className="text-base lg:text-lg">
             I am a full stack web developer with a passion for creating
             interactive and responsive web applications. I have experience
-            working with JavaScript, React, Redux, Node.js, Express, PostgreSQL,
-            Sequelize, HTML, CSS, and Git. I am a quick learner and I am always
+            working with JavaScript, React, Node.js, Express, MongoDB,
+            HTML, CSS,NextJS and Git. I am a quick learner and I am always
             looking to expand my knowledge and skill set. I am a team player and
             I am excited to work with others to create amazing applications.
           </p>
@@ -85,6 +92,13 @@ const AboutSection = () => {
             >
               {" "}
               Certifications{" "}
+            </TabButton>
+            <TabButton
+              selectTab={() => handleTabChange("experience")}
+              active={tab === "experience"}
+            >
+              {" "}
+              Experience{" "}
             </TabButton>
           </div>
           <div className="mt-8">
