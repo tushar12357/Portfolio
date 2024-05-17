@@ -32,7 +32,7 @@ const EmailSection = () => {
         </div>
       </div>
       <div>
-        <Image src="/images/images.png" className="" width={500} height={500}/>
+        <Image src="/images/images.png" alt="" className="" width={500} height={500}/>
       </div>
          </section>
   );
