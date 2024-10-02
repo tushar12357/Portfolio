@@ -9,7 +9,7 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="list-disc pl-2">
-        <li>Full Stack Web Development: HTML, CSS, JavaScript, ReactJS, Node.js, Express.js, NextJS, MongoDB, AWS Cloud</li>
+        <li>Full Stack Web Development: HTML, CSS, JavaScript, ReactJS, Node.js, Express.js, NextJS, MongoDB, Chart.js</li>
         <li>Programming Languages: C++, Python</li>
         <li>Database: MySQL</li>
       </ul>
@@ -31,7 +31,6 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>Core Team Member and Organizer of GTBIT Tech Fest &apos;SANCHAAR&apos;</li>
-        <li>IoT Summer Training at GTBIT</li>
         <li>Completed a Course on &quot;Rocket Propulsion and Spacecraft Dynamics&quot; at ISRO</li>
       </ul>
     ),
@@ -42,6 +41,7 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>Web Development intern at Dimitra AgTech</li>
+        <li>Web Development intern at Shanture</li>
       </ul>
     ),
   },
