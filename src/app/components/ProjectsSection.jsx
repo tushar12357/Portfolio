@@ -4,27 +4,28 @@ import ProjectCard from "./ProjectCard";
 import { motion, useInView } from "framer-motion";
 
 const projectsData = [
+
   {
     id: 1,
-    title: "TextUtils",
-    description: "Text editing app developed using ReactJS",
-    image: "/images/projects/1.png",
-    gitUrl: "https://github.com/tushar12357/TextUtils",
-  },
-  {
-    id: 2,
     title: "News-Wizard",
     description: "Real time news app developed using ReactJS and News API",
     image: "/images/projects/2.png",
     gitUrl: "https://github.com/tushar12357/News-Wizard",
   },
   {
-    id: 3,
+    id: 2,
     title: "Zwigato",
     description: "Food ordering app developed using MERN Stack",
     image: "/images/projects/3.png",
     gitUrl: "https://github.com/tushar12357/Zwigato",
-  }
+  },
+   {
+    id: 3,
+    title: "Connectify",
+    description: "Social Media app developed using MERN Stack",
+    image: "/images/projects/1.png",
+    gitUrl: "https://github.com/tushar12357/Connectify",
+  },
 ];
 
 const ProjectsSection = () => {
