@@ -23,7 +23,7 @@ const projectsData = [
     id: 3,
     title: "Connectify",
     description: "Social Media app developed using MERN Stack",
-    image: "/images/projects/1.png",
+    image: "/images/projects/social.png",
     gitUrl: "https://github.com/tushar12357/Connectify",
   },
 ];
