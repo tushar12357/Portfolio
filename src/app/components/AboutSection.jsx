@@ -9,7 +9,7 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="list-disc pl-2">
-        <li>Full Stack Web Development: HTML, CSS, JavaScript, ReactJS, Node.js, Express.js, NextJS, MongoDB, Chart.js</li>
+        <li>Full Stack Web Development: HTML, CSS, JavaScript, ReactJS, Node.js, Express.js, MongoDB, Chart.js</li>
         <li>Programming Languages: C++, Python</li>
         <li>Database: MySQL</li>
       </ul>
