@@ -23,7 +23,7 @@ const projectsData = [
     id: 3,
     title: "Socialize",
     description: "React Native Mobile Chat application developed using MERN Stack",
-    image: "/images/projects/socialize.jpeg",
+    image: "/images/projects/socialize.jpg",
     gitUrl: "https://github.com/tushar12357/socialize",
   },
 ];
