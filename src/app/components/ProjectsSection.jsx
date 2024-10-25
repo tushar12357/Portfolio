@@ -12,19 +12,19 @@ const projectsData = [
     image: "/images/projects/2.png",
     gitUrl: "https://github.com/tushar12357/News-Wizard",
   },
-  {
-    id: 2,
-    title: "Zwigato",
-    description: "Food ordering app developed using MERN Stack",
-    image: "/images/projects/3.png",
-    gitUrl: "https://github.com/tushar12357/Zwigato",
-  },
    {
-    id: 3,
+    id: 2,
     title: "Connectify",
     description: "Social Media app developed using MERN Stack",
     image: "/images/projects/social.png",
     gitUrl: "https://github.com/tushar12357/Connectify",
+  },
+  {
+    id: 3,
+    title: "Socialize",
+    description: "React Native Mobile Chat application developed using MERN Stack",
+    image: "/images/projects/socialize.jpeg",
+    gitUrl: "https://github.com/tushar12357/socialize",
   },
 ];
 
